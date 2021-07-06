@@ -21,3 +21,6 @@
 4. Run tests together with ganache-cli simulation network with command `npm run ganache-run-test` or run test on already running network node `npm run test`
 5. Deploy contracts on any configured network using `npm run migrate`
 6. (optional) Write additinal scripts to interact with smart contracts in _./scripts_ directory and execute them with command `truffle exec scripts/sample.js`
+
+## Contract templates and examples
+Current Ethereum smart contract development standard for ERC-20 and ERC-721 tokens, and it's example implementations can be found in following repository: https://github.com/OpenZeppelin/openzeppelin-contracts
