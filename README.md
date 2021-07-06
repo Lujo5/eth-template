@@ -13,11 +13,11 @@
 - **tests** - JavaScript test files executed by truffle "test" command, using mocha and chai libraries to test the main logic and behavior of smart contracts
 
 ## Development steps
-0. Configure local development environmnet and other networks in _truffle-config.js_ file
+0. Configure local development environmnet and other Ethereum networks configuration in _truffle-config.js_ file
 1. Write smart contracts in _./contracts_ directory
 2. Compile contracts with command `npm run compile`
 3. Add new migration file or add deployment of new contracts in existing migration file in _./migrations_ directory   
 3. Write tests in _./tests_ directory
-4. Run tests together with ganache-cli simulation network with command `npm run ganache-run-test`
+4. Run tests together with ganache-cli simulation network with command `npm run ganache-run-test` or run test on already running network node `npm run test`
 5. (optional) Deploy contracts on any configured network using `npm run migrate`
 6. (optional) Write additinal scripts to interact with smart contracts in _./scripts_ directory and execute them with command `truffle exec scripts/sample.js`
