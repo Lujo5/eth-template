@@ -2,9 +2,9 @@
 > Bootstrapped Ethereum smart contract project template with truffle and ganache
 
 ## Requirements
-1. Installed npm packages `npm install`
-2. IDE with solidity language support
-3. (optional) Ethereum client (e.g. geth) for mainnet or testnet deployment
+- Installed npm packages `npm install`
+- IDE with solidity language support
+- (optional) Ethereum client (e.g. geth) for mainnet or testnet deployment
 
 ## Directories
 - **contracts** - All the solidity contracts source code, with initial Migrations.sol used by truffle framework
