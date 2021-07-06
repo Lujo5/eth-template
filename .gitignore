@@ -1,0 +1,8 @@
+# IDE workspace configurations
+.idea
+
+# Smart contract compiled files
+build
+
+# NPM node modules
+node_modules
