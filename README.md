@@ -19,5 +19,5 @@
 3. Add new migration file or add deployment of new contracts in existing migration file in _./migrations_ directory   
 3. Write tests in _./tests_ directory
 4. Run tests together with ganache-cli simulation network with command `npm run ganache-run-test` or run test on already running network node `npm run test`
-5. (optional) Deploy contracts on any configured network using `npm run migrate`
+5. Deploy contracts on any configured network using `npm run migrate`
 6. (optional) Write additinal scripts to interact with smart contracts in _./scripts_ directory and execute them with command `truffle exec scripts/sample.js`
