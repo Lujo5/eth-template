@@ -10,7 +10,8 @@
 - **contracts** - All the solidity contracts source code, with initial Migrations.sol used by truffle framework
 - **migrations** - Add migration scripts that are executed by truffle "migrate" command
 - **scripts** - Useful sandbox scripts as integration tests for deployed contracts on Ethereum network (mainnet or one of testnets)
-- **tests** - JavaScript test files executed by truffle "test" command, using mocha and chai libraries to test the main logic and behavior of smart contracts
+- **tests** - JavaScript test files executed by truffle "test" command, using mocha and chai libraries to test the main logic and behavior of smart contracts. 
+  Additionally, you could also write tests using Solidity and use provided truffle assertion libraries
 
 ## Development steps
 0. Configure local development environmnet and other Ethereum networks configuration in _truffle-config.js_ file
