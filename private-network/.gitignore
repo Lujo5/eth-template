@@ -1,0 +1,12 @@
+# IDE workspace configurations
+.idea
+
+# Ignore bootnode key
+bnode/boot.key
+bnode/enode.txt
+
+# Ignore all nodes data directory contents
+node*/data/**
+
+# Ignore created genesis block config
+genesis.json
