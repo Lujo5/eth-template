@@ -4,13 +4,14 @@ genesis_config=${GENESIS_CONFIG:-"./genesis.json"}
 bootnode_key_path=${BOOTNODE_KEY_PATH:-"./bnode/boot.key"}
 bootnode_enode_path=${BOOTNODE_ENODE_PATH:-"./bnode/enode.txt"}
 
+# Check if network is already configured
 if [ -f "$genesis_config" ]
 then
   echo "Private network is already configured with file: $genesis_config"
   exit
 fi
 
-# Initialize accounts
+# Initialize accounts and extract account adresses to files
 echo "Creating initial accounts for each node..."
 account1=$(geth --datadir ./node1/data account new --password "./node1/password.txt" | sed -n 's/.*Public address of the key:   0x\(.*\).*/\1/p')
 echo "$account1" > ./node1/data/account.txt
@@ -25,7 +26,9 @@ echo "Account created: $account2"
 echo "Creating genesis configuration..."
 cp genesis-template.json "$genesis_config"
 
+# Replace sealer account from node 1
 sed -i "s/SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS/$account1/g" "$genesis_config"
+# Replace normal account from node 2
 sed -i "s/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/$account2/g" "$genesis_config"
 
 

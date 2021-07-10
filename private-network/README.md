@@ -3,7 +3,7 @@
 
 ## Requirments
 - Installed geth and bootnode ethereum tools (https://geth.ethereum.org/downloads) and added to path
-- bash terminal
+- Bash shell terminal
 
 ## Setup
 1. (optional) Change initial accounts passwords in ./node1/password.txt and ./node2/password.txt files
