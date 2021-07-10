@@ -1,5 +1,5 @@
 # eth-private-network
-> Setup for ethereum private network using Proof of Authority
+> Setup scripts and files for ethereum private network using Proof of Authority (Clique)
 
 ## Requirments
 - Installed geth and bootnode ethereum tools (https://geth.ethereum.org/downloads) and added to path
@@ -13,5 +13,5 @@
 1. Execute `./bnode/start.sh`
 2. Execute `./node1/start.sh`
 3. Execute `./node2/start.sh`
-4. (optional) To run all nodes in same terminal execute `./start.sh`
-5. (optional) If you want to remove all private network data execute `./purge.sh`
+4. (optional) To run all nodes in the same terminal execute `./start.sh`
+5. (optional) To remove all private network data execute `./purge.sh`
