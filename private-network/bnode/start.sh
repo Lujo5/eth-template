@@ -10,4 +10,4 @@ then
   exit
 fi
 
-bootnode -nodekey "$key_path" -verbosity 3 -addr "$host:$port"
+bootnode -nodekey "$key_path" -verbosity 5 -addr "$host:$port"
