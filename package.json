@@ -19,8 +19,8 @@
   "scripts": {
     "compile": "truffle compile --all",
     "test": "truffle test --compile-all",
-    "migrate": "truffle migrate --compile-all",
-    "migrate-reset": "truffle migrate --reset --compile-all",
+    "migrate": "truffle migrate",
+    "migrate-reset": "truffle migrate --reset",
     "watch": "truffle watch",
     "ganache-run": "ganache-cli",
     "ganache-run-test": "npm-run-all -p -r 'ganache-run -- -q' test"
