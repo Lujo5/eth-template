@@ -28,4 +28,4 @@ enode_url="enode://$enode_key@$bootnode_host:0?discport=$bootnode_port"
 
 account=$(<./data/account.txt)
 
-geth --networkid "$node_pnetwork_id" $mine_arg --datadir "./data" --port "$node_port" --ipcdisable --syncmode full --http --http.corsdomain "*" --http.port "$node_http_port" --ws --ws.port "$node_ws_port" --ws.origins "*" --ws.api eth,net,web3 --bootnodes "$enode_url" --allow-insecure-unlock --unlock "$account" --password "./password.txt"
+geth --networkid "$node_pnetwork_id" $mine_arg --datadir "./data" --port "$node_port" --ipcdisable --syncmode full --http --http.corsdomain "*" --http.port "$node_http_port" --ws --ws.origins "*" --ws.port "$node_ws_port" --bootnodes "$enode_url" --allow-insecure-unlock --unlock "$account" --password "./password.txt"
