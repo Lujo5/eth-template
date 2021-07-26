@@ -11,7 +11,7 @@
     "petersburgBlock": 0,
     "istanbulBlock": 0,
     "clique": {
-      "period": 1,
+      "period": 5,
       "epoch": 30000
     }
   },
@@ -792,10 +792,10 @@
       "balance": "0x1"
     },
     "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS": {
-      "balance": "0x200000000000000000000000000000000000000000000000000000000000000"
+      "balance": "0x69E10DE76676D0800000"
     },
     "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA": {
-      "balance": "0x200000000000000000000000000000000000000000000000000000000000000"
+      "balance": "0x69E10DE76676D0800000"
     }
   },
   "number": "0x0",

@@ -7,7 +7,7 @@ bootnode_port="${BOOTNODE_PORT:-"30301"}"
 node_pnetwork_id="${NODE_NETWORK_ID:-"12345"}"
 node_port="${NODE_PORT:-"30303"}"
 node_http_port="${NODE_HTTP_PORT:-"8545"}"
-node_ws_port="${NODE_WS_PORT:-"8546"}"
+node_ws_port="${NODE_WS_PORT:-"8545"}"
 node_mine="${NODE_MINE:-"YES"}"
 
 mine_arg="--mine"
